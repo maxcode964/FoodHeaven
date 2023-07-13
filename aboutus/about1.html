@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demo.css">
+    <link rel="shortcut icon" href="/images/Logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto&family=Sacramento&display=swap"
+    rel="stylesheet">
+    <title>Food Haven</title>
+</head>
+<style>
+     * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    body {
+            margin: 0;
+            background-position: center;
+            background-size: cover;
+            color: #FFBB55;
+
+         }
+     a {
+            text-decoration: none;
+            color: #FFBB55;
+        }
+    .nav-container {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 96.56%;
+        height: 45px;
+        background: rgba(227, 196, 85, 0.25);
+        }
+    .nav-bar {
+            display: block;
+            justify-content: space-between;
+            align-items: center;
+        }
+    .nav-items {
+            font-size: 1.4rem;
+            display: flex;
+            align-items: center;
+         }
+    .nav-items li {
+            margin: 0 25px 0 25px;
+            position: relative;
+         }
+    .nav-items li::after {
+            content: " ";
+            width: 0;
+            height: 3px;
+            background-color: #FFBB55;
+            position: absolute;
+            top: 24px;
+            left: 0;
+            transition-duration: 0.5s;
+        }
+    .nav-items li:hover::after {
+            width: 100%;
+         }
+   
+</style>
+<body>
+    
+    <div class="nav-container">
+        <div style="display: flex;" class="nav-bar">
+            <div class="nav-items-con">
+            <i style="display: none;" id="close" class="fa-solid fa-xmark"></i>
+            <ul style=" list-style: none;" class="nav-items">
+                <li><a>Home</a></li>
+                <li><a>service</a></li>
+                <li><a>Contact Us</a></li>
+                <li><a>About Us</a></li>
+            </ul>
+            <i id="menu" class="fa-solid fa-bars"></i>
+            <button id="login-btn" class="btn"><a href="/Login Page/login.html">Log In</a></button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <a>
+            <img class="center-fit" id="image2" src="image 2.png" alt="image 2" width="1349" height="300">
+        </a>
+    </div>
+    <div>
+    
+        <img id="image1"  src="image 1.png" alt="image1"  width="400" height="150">
+    
+    </div>
+    <div>
+        <div>
+            <pre>
+            The at food haven ensures that the meals are not only healthy but also appealing to the eye and
+            palette. We believe in giving surprises and breaking monotony, so our menu changes daily and
+            features over 40 dishes that change every day. That includes a variety of vegetables, dal, soups, 
+            raita, rice, rotis, salads, and snack items. These are healthy, well-balanced meals cooked in 
+            rice bran/olive oil, which provide the right amount of protein along with essential vitamins and 
+            minerals. The same food prepared in canteens or Udupi restaurants can be tasty, but is generally 
+            oily and big on your pocket.
+            </pre>
+            <hr id="line">
+            <h1>
+                Why Food Haven?
+            </h1>
+        </div>
+        
+        <div class="def">
+            <div class="row">
+                <div class="column">
+                  <h2>Locations</h2>
+                  <p>Sign up for tiffin services in Andheri West or join us for tiffin services from Lower Parel or even register from Thane or Borivali, we will not say a ‘NO’. We deliver just everywhere.</p>
+                  <h2>Affordable prices.</h2>
+                  <p>Customized lunch and dinner tiffin services in Mumbai/panvel start at just Rs.60/- The food that you eat is healthy, yummy at the same time it’s affordable.</p>
+                  <h2>Fresh ingredients.</h2>
+                  <p>Everyday fresh vegetable of the best quality are procured to ensure that the food that you eat is good for your health.</p>
+                </div>
+                <div class="column">
+                  <h2>Tasty Food.</h2>
+                  <p>Our experienced chefs ensure that the food you eat has the perfect mix of spices. The food that you eat is not too spicy or too oily at the same time it’s very tasty.</p>
+                  <h2>Select your own menu.</h2>
+                  <p>You can select your own menu with the help of our unique E-menu feature, because you deserve to eat what you like.</p>
+                  <h2>Disposable containers.</h2>
+                  <p>Food is packed in disposable plastic containers. All these containers are carefully packed in a disposable bag. This ensures that there are no chances of contamination.</p>
+                </div>
+                <div class="column">
+                  <h2>No preservatives/ artificial color</h2>
+                  <p>gravies to make the food look attractive. The food that you eat is just like the way food cooked at home.</p>
+                  <h2>Experienced cooks.</h2>
+                  <p>Our cooks have more than a decade of experience in catering industry.</p>
+                  
+                </div>
+              </div>
+        </div>
+
+    </div>
+    <div >
+     <img src="image 5.png" alt="feedback" id="feedback" width="50" height="50">
+    </div>
+
+</body>
+</html>

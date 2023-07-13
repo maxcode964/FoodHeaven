@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demo.css">
+    <script type="text" src="demo.js"></script>
+    <link rel="shortcut icon" href="/images/Logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto&family=Sacramento&display=swap"
+    rel="stylesheet">
+    <title>Food Haven</title>
+</head>
+<style>
+     * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    body {
+            margin: 0;
+            background-position: center;
+            background-size: cover;
+            color: #070707;
+
+         }
+     a {
+            text-decoration: none;
+            color: #342d9c;
+        }
+    .nav-container {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 96.56%;
+        height: 45px;
+        background: rgba(144, 185, 238, 0.25);
+        }
+    .nav-bar {
+            display: block;
+            justify-content: space-between;
+            align-items: center;
+        }
+    .nav-items {
+            font-size: 1.4rem;
+            display: flex;
+            align-items: center;
+         }
+    .nav-items li {
+            margin: 0 25px 0 25px;
+            position: relative;
+         }
+    .nav-items li::after {
+            content: " ";
+            width: 0;
+            height: 3px;
+            background-color: #77a3f5;
+            position: absolute;
+            top: 24px;
+            left: 0;
+            transition-duration: 0.5s;
+        }
+    .nav-items li:hover::after {
+            width: 100%;
+         }
+   
+</style>
+<body>
+    
+    <div class="nav-container">
+        <div style="display: flex;" class="nav-bar">
+            <div class="nav-items-con">
+            <i style="display: none;" id="close" class="fa-solid fa-xmark"></i>
+            <ul style=" list-style: none;" class="nav-items">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../contactus/contact.html">Contact Us</a></li>
+                <li><a href="../aboutus/about1.html">About Us</a></li>
+            </ul>
+            <i id="menu" class="fa-solid fa-bars"></i>
+            <button id="login-btn" class="btn"><a href="../Login Page/login.html">Log In</a></button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <div>
+                <h1>Contact FoodHaven</h1>
+                <pre>
+                    We’re here to help and answer any
+                    question you might have. We look forward 
+                        to hearing from you
+                </pre>
+            </div>
+            <div class="main">
+                
+                <form id="Contact" name="contact">
+                    <label for="help" id="help">How can we help you today?</label><br>
+                    <input type="text" id="name"  name="help" placeholder="How can we help you today?">
+                    <br><br>
+                    <label for="name" id="name" ">Name</label><br>
+                    <input type="text" id="name" name="name"  placeholder="Name" ><br><br>
+                    <label for="phone">Enter a phone number:</label><br>
+                    <input type="tel" id="name" name="phone"  placeholder="123-453-6786" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+                    <label for="email">Enter your email:</label><br>
+                    <input type="email" id="name"  name="email" placeholder="xyz@acb.com"><br><br>
+                    <label for="comment" id="comment">comment</label><br>
+                    <input type="text" style="height: 50px; " id="name" name="help" placeholder="Comment"><br><br>
+                    <button style="background-color: #342d9c;" type="send" form="form1" value="Send" onclick="display" id="send">SEND</button>
+                    
+                </form>
+                
+            </div>
+        </div>
+        <div>
+        <div>
+            <img src="image 7.png" alt="address" id="address" width="100" height="100">
+            <h2> info@foodhaven.comtt</h2>
+        </div>
+        <div>
+            <img src="Rectangle 44.png" alt="gmail" id="gmail" width="100" height="100">
+        <pre id="address1">
+            Kinematic Foodtech Pvt Ltd,
+            #201/1A, Kudlu Main Road,
+                    Kudlu main road,
+                    Bangalore - 560068
+            </pre>
+        </div>
+        <div>
+            <img src="image 8.png" alt="design" width="1348" height="50" id="design">
+        </div>
+
+        </div>
+    
+    </div>
+    
+
+</body>
+</html>

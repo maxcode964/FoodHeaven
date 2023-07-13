@@ -1,0 +1,254 @@
+
+#menu {
+    font-size: 1rem;
+    color: #FFBB55;
+    cursor: pointer;
+    display: none;
+    }
+#login-btn {
+        margin-right: 50px;
+    }
+#login-btn a {
+        color: black;
+    }
+
+.def{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 120%;
+bottom: 0%;
+
+
+
+}
+#address{
+    position: absolute;
+    
+    left: 25%;
+    right: 0%;
+    top: 110%;
+    bottom: 0%;
+}
+#gmail{
+    position: absolute;
+    
+    left: 65%;
+    right: 40%;
+    top: 110%;
+    bottom: 0%;
+}
+
+h1{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    left: 0%;
+    right: 0%;
+    top: 10%;
+    bottom: 0%;
+    font-size: 32px;
+    line-height: 77px;
+    text-align: center;
+}
+h2{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    left: 24%;
+    right: 0%;
+    top: 126%;
+    bottom: 0%;
+}
+#address1{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    left: 58%;
+    right: 40%;
+    top: 126%;
+    bottom: 0%;
+    text-align: justify;
+}
+#design{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 150%;
+    bottom: 0%;
+}
+
+pre{
+
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    left: 10%;
+    right: 20%;
+    top: 20%;
+    bottom: 0%;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+}
+.main{
+    width: 400px;
+    margin: 250px 425px 300px auto;
+     
+}
+#contact{
+    margin: 40px;
+
+}
+lable {
+    font-family:'Inter';
+    font-size: 20px;
+
+}
+
+input#name{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px
+    rgba(0,0,0,0.3);
+}
+#send{
+    width: 100px;
+    padding: 7px;
+   
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 300;
+    border-radius: 3px;
+    background-color: #342d9c;
+    cursor: pointer;
+    border: 1px solid;
+    box-shadow: 1px 1px 5px
+    rgba(0,0,0,0,3);
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+.def{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 120%;
+bottom: 0%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 25px;
+text-align: justify;
+
+color: #454874;
+}
+
+
+.btn {
+    position: absolute;
+    left: 90%;
+    right: 10%;
+    top: 0.8%;
+    bottom: 97.38%;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    
+    cursor: pointer;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+   
+    align-items: center;
+    text-align: center;
+    background-color: #342d9c;
+    
+    
+    
+    }
+.btn:hover {
+        background-color: #5a64f8f5;
+     }
+@media only screen and (max-width:800px)
+{
+    .nav-bar {
+        align-items: center;
+        }
+    .nav-items-con {
+            position: fixed;
+            margin: 0;
+            top: 0;
+            right: -200px;
+            width: 200px;
+            padding: 0%;
+            background-color: #62463b;
+            height: 100vh;
+            z-index: 1;
+        }
+    #close {
+            display: block;
+        }
+    .nav-items {
+            font-size: 1.7rem;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            margin-top: 55px;
+        }
+    .nav-items li::after {
+            content: " ";
+            width: 0;
+            height: 3px;
+            background-color: #FFBB55;
+            position: absolute;
+            top: 27px;
+            left: 0;
+            transition-duration: 0.5s;
+        }
+    .nav-items li {
+            margin: 15px auto;
+        }
+    #close {
+            font-size: 2em;
+            color: #FFBB55;
+            position: absolute;
+            top: 10px;
+            left: 15px;
+        }
+    #menu {
+            display: block;
+            margin-right: 10px;
+            font-size: 2rem;
+        }
+    #login-btn {
+            margin: 0;
+            margin-right: 100px;
+            display: none;
+        }
+   
+        
+}
+  

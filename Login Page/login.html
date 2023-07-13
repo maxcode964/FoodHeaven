@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="images/logo-ffbb55.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<style>
+
+</style>
+<script src="https://kit.fontawesome.com/c1d45e04f7.js" crossorigin="anonymous"></script>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="nav-bar">
+                <a href="#"><img class="logo" src="images/logo-ffbb55.png" alt="logo"></a>
+                <div class="nav-items-con">
+                    <i onclick="hidenav()" id="close" class="fa-solid fa-xmark"></i>
+                    <ul class="nav-items">
+                        <li><a href="../index.html">Home</a></li>
+                        <!-- <li><a href="../myprogram (2)/myprogram/m1.html">Services</a></li> -->
+                        <li><a href="../aboutus/about1.html">About us</a></li>
+                        <li><a href="../contactus/contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+                <i onclick="shownav()" id="menu" class="fa-solid fa-bars"></i>
+                <button id="signup-btn" class="btn"><a href="../Registration Page/registration.html"> Sign Up</a></button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <p id="para-1">
+                    Good food is basis of true happiness
+                </p>
+                <p id="para-2">
+                    ~Auguste Escoffier
+                </p>
+            </div>
+            <div class="col-2">
+                <div class="login-container">
+                    <p id="heading-1">Login</p>
+                    <span id="signup">or <a href="../Registration Page/registration.html">create an account</a></span>
+                    <form id="login-form" action="login.php" method="post">
+                        <div class="form-div">
+                            <label for="username">Username</label>
+                            <img src="images/username.png" class="in-form-icon" alt="">
+                            <input type="text" id="username" name="email" required>
+                        </div>
+                        <div class="form-div">
+                            <label for="password">Password</label>
+                            <img src="images/password.png" class="in-form-icon" alt="">
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div id="forget-pass">
+                            <a href="">Forgotten Password ?</a>
+                        </div>
+                        <button id="submit-btn" class="btn" type="submit" name="login">
+                            Log in </button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
